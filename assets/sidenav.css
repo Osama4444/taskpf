@@ -1,0 +1,20 @@
+/* Fixed sidenav, full height */
+.sidenav {
+  display: flex;
+  flex-direction: column;
+}
+.sidenav button {
+  text-align: left;
+  padding: 2px 2px 17px 14px;
+  background: none;
+  border: none;
+}
+#cate-heading-nav {
+  text-align: left;
+  margin: 2px 0px 12px 11px;
+  font-size: medium bold;
+}
+.sidenav button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #ff6a00;
+}
